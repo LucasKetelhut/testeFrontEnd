@@ -1,5 +1,5 @@
 <h1 align="center">
-#Desafio e-Core
+#Desafio Front-End
 </h1>
 
 ### Tópicos
@@ -15,7 +15,7 @@
 ---
 
 ## Sobre o desafio
-A ideia era bater em uma API e trazer os dados para a aplicação, podendo listar as equipes presentes e navegar entre estas para descobrir os seus membros.
+A ideia era bater em uma API e trazer os dados para a aplicação, listando os bots e podendo filtrar por data de criação e nome. Também é possível buscar pelo campo de busca e escolher a visualização em bloco ou em lista. Ao clicar no bot podemos ir para uma página com mais informações sobre o mesmo.
 
 ---
 
@@ -24,7 +24,6 @@ A ideia era bater em uma API e trazer os dados para a aplicação, podendo lista
 ```bash
 
 # Abrir pasta do projeto
-$ cd eCoreCodingChallenge-main
 # Instalar as dependências
 $ npm install
 # Executar a aplicação em seu ambiente local
@@ -39,6 +38,7 @@ $ npm run dev
 ✔️ Na pasta "pages" encontram-se as páginas da aplicação. <br>
 ✔️ Na pasta "src" encontra-se a conexão com a api. <br>
 ✔️ Na pasta "src/components" encontram-se os compentes utilizados na aplicação. <br>
+✔️ Na pasta "public/images" encontram-se as imagens utilizadas na aplicação. <br>
 
 ---
 
@@ -48,5 +48,4 @@ The [MIT License]() (MIT)
 
 Copyright ©️ 2022
 ```
-# testeFrontEnd
 # testeFrontEnd
