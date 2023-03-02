@@ -91,20 +91,18 @@ export default function BotPage() {
     const [bot, setBot] = useState();
     const { query } = useRouter();
 
-    console.log(query);
-
     useEffect(() => {
         async function getBot() {
             try {
-                const { data } = await api.get(`${query.id.replace(' ', '_').toLowerCase()}/details`); 
+                const { data } = await api.get(`${query?.id.replace(' ', '_').toLowerCase()}/details`); 
                 
                 setBot(data);
+                setIsOnline(true);
             } catch (error) {
                 console.log(error);
             }
         }
         getBot();
-        setIsOnline(true);
     }, [query]);
 
     while (!isOnline) {
@@ -118,7 +116,7 @@ export default function BotPage() {
                 <SectionDiv>
                         <BotInitialInfo>
                             <img src="/images/botIcon.svg" alt="Bot Icon" />
-                            <BotInfo name={bot.name} id={bot.name.toLowerCase()}/>
+                            <BotInfo name={bot.name} id={bot.name.toLowerCase().replace(' ', '')}/>
                         </BotInitialInfo>
                         <BotComplement>{`Created at ${new Date(Date.parse(bot.created)).toLocaleDateString()}`}</BotComplement>
                 </SectionDiv>

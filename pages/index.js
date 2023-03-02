@@ -201,7 +201,7 @@ export default function Home() {
                       }
                     ><img src={bot.favoritedImage} alt='Favorite Button'></img></FavoriteButton>
                     {bot.type === 'router' ? <RouterImage /> : <BotImage />}
-                    <Link href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
+                    <Link style={{textDecoration: "none"}} href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
                     <BotComplement>{bot.type === 'router' ? 'Router' : 'Builder'}</BotComplement>
                   </StyledCard>
                 </>
@@ -222,7 +222,7 @@ export default function Home() {
                     }
                     ><img src={bot.favoritedImage} alt='Favorite Button'></img></FavoriteButton>
                     {bot.type === 'router' ? <RouterImage /> : <BotImage />}
-                    <Link href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
+                    <Link style={{textDecoration: "none"}} href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
                     <BotComplement>{bot.type === 'router' ? 'Router' : 'Builder'}</BotComplement>
                   </StyledCard>
                 </>
@@ -245,7 +245,7 @@ export default function Home() {
                         }
                       ><img src={bot.favoritedImage} alt='Favorite Button'></img></FavoriteListButton>
                         {bot.type === 'router' ? <RouterListImage /> : <BotListImage />}
-                        <Link href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
+                        <Link style={{textDecoration: "none"}} href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
                       <BotComplement>{`Created at ${new Date(Date.parse(bot.created)).toLocaleDateString()}`}</BotComplement>
                     </StyledListCard>
                   </>
@@ -264,7 +264,7 @@ export default function Home() {
                         }
                       ><img src={bot.favoritedImage} alt='Favorite Button'></img></FavoriteListButton>
                       {bot.type === 'router' ? <RouterListImage /> : <BotListImage />}
-                      <Link href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
+                      <Link style={{textDecoration: "none"}} href={`/bots/${bot.name}`}><BotName>{bot.name}</BotName></Link>
                       <BotComplement>{`Created at ${new Date(Date.parse(bot.created)).toLocaleDateString()}`}</BotComplement>
                     </StyledListCard>
                   </>
