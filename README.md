@@ -61,7 +61,7 @@ $ npm run dev
 
 ## Links 
 
-- Link do deploy da aplicação feito pelo Heroku: <a href="https://take-blip-api-lucas.herokuapp.com/repositories">Aplicação no Heroku</a>
+- Link do deploy da aplicação feito pela Vercel: <a href="https://teste-front-end-psi.vercel.app/">Aplicação Online</a>
 
 ---
 
