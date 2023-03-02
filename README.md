@@ -19,6 +19,19 @@ A ideia era bater em uma API e trazer os dados para a aplicação, listando os b
 
 ---
 
+## Resultado esperado do desafio
+
+- [x] Listagem de contatos inteligentes;
+- [x] Adicionar um contato na listagem de favoritos;
+- [x] Permitir alterar a forma de visualização (lista/blocos);
+- [x] Permitir ordenação por ordem alfabética;
+- [x] Permitir ordenação por data;
+- [x] Permitir busca por nome dos contatos;
+- [x] Ao clicar em um contato, deverá ser redirecionado para uma tela contendo os detalhes
+daquele contato que foi clicado.
+
+---
+
 ## Como executar o Projeto
 
 ```bash
@@ -39,6 +52,12 @@ $ npm run dev
 ✔️ Na pasta "src" encontra-se a conexão com a api. <br>
 ✔️ Na pasta "src/components" encontram-se os compentes utilizados na aplicação. <br>
 ✔️ Na pasta "public/images" encontram-se as imagens utilizadas na aplicação. <br>
+
+---
+
+## Links 
+
+- Link do deploy da aplicação feito pelo Heroku: <a href="https://take-blip-api-lucas.herokuapp.com/repositories">Aplicação no Heroku</a>
 
 ---
 
