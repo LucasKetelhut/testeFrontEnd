@@ -6,9 +6,13 @@
 
 :small_blue_diamond: [Sobre o desafio](#sobre-o-desafio)
 
+:small_blue_diamond: [Resultado esperado do desafio](#resultado-esperado-do-desafio)
+
 :small_blue_diamond: [Como executar o Projeto](#como-executar-o-projeto)
 
 :small_blue_diamond: [Estrutura](#estrutura)
+
+:small_blue_diamond: [Links](#links)
 
 :small_blue_diamond: [Licença](#licença)
 
