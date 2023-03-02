@@ -10,9 +10,12 @@ import BotName from '../src/components/BotName';
 import FavoriteButton from '../src/components/FavoriteButton';
 import FavoriteListButton from '../src/components/FavoriteListButton';
 import Header from '../src/components/Header';
+import HrDiv from '../src/components/HrDiv';
+import MainDiv from '../src/components/MainDiv';
 import RouterImage from '../src/components/RouterImage';
 import RouterListImage from '../src/components/RouterListImage';
 import SearchField from '../src/components/SearchField';
+import SectionDiv from '../src/components/SectionDiv';
 import StyledButton from '../src/components/StyledButton';
 import StyledCard from '../src/components/StyledCard';
 import StyledDiv from '../src/components/StyledDiv';
@@ -41,19 +44,6 @@ const H2 = styled.h2`
     color: #607B99;
 `;
 
-const HrDiv = styled.div`
-    border-bottom: 1px solid #D2DFE6;
-    margin-top: 25px;
-    margin-bottom: 50px;
-`;
-
-const SectionDiv = styled.div`
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-`;
-
 const FilterDiv = styled.div`
     display: flex;
 `;
@@ -75,13 +65,6 @@ const Button = styled.button`
     :hover {
         cursor: pointer;
     }
-`;
-
-const Div = styled.div`
-  width: 100%;
-  height: 100%;
-  height: 100vh;
-  background-color: #F5F8F9;
 `;
 
 export default function Home() {
@@ -175,7 +158,7 @@ export default function Home() {
   }
   return (
     <>
-      <Div>
+      <MainDiv >
         <Header />
         <SectionDiv>
           <H1>My chatbots</H1>
@@ -291,7 +274,7 @@ export default function Home() {
           )}
         </BotListDiv>
         <AddButton><img src="/images/addButton.svg" alt="Add Button" /></AddButton>
-      </Div>
+      </MainDiv>
     </>
   );
 }
