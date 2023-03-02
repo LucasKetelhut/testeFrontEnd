@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import React from "react";
-
 const StyledButton = styled.button`
     align-items: center;
     padding: 10px 16px;
@@ -30,15 +28,4 @@ const StyledButton = styled.button`
     }
 `;
 
-export default class Button extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <StyledButton>{this.props.title}</StyledButton>
-        );
-    }
-}
+export default StyledButton;

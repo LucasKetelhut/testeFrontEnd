@@ -1,7 +1,5 @@
 import styled from 'styled-components';
-import React from "react";
-
-const StyledButton = styled.button`
+const AddButton = styled.button`
     position: fixed;
     width: 56px;
     height: 56px;
@@ -19,15 +17,4 @@ const StyledButton = styled.button`
     }
 `;
 
-export default class AddButton extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <StyledButton><img src="/images/addButton.svg" alt="Adicionar" /></StyledButton>
-        );
-    }
-}
+export default AddButton; 

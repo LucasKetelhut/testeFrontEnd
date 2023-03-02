@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import React, { useState, useEffect } from "react";
 
-const Input = styled.input`
+const SearchField = styled.input`
     border: 1px solid #D2DFE6;
-    padding: 10px;
+    padding: 20px;
     width: 312px;
     margin: 0 2.5px;
     border-radius: 8px;
@@ -17,31 +16,4 @@ const Input = styled.input`
     outline: none;
 `;
 
-const Div = styled.div`
-    text-align: center;
-`
-export default class InputField extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            value: ""
-        };
-
-        this.handleChange = this.handleChange.bind(this);
-        console.log(this);
-    }
-
-    handleChange(event) {
-        this.setState({ value: event.target.value });
-    }
-
-    render() {
-        return (
-            <Div>
-                <Input type="text" placeholder='Search' onChange={this.handleChange} value={this.state.value}>
-                </Input>
-            </Div>
-        );
-    }
-}
+export default SearchField;
