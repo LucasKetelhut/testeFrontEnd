@@ -2,21 +2,21 @@ import { useRouter } from "next/router";
 import api from '../../src/api';
 import styled from 'styled-components';
 import { useState, useEffect } from "react";
-import Header from "../../src/components/Header";
+import Header from "../../src/components/Header/Header";
 import HrDiv from "../../src/components/HrDiv";
-import Footer from "../../src/components/Footer";
+import Footer from "../../src/components/Footer/Footer";
 import MainDiv from "../../src/components/MainDiv";
 import SectionDiv from "../../src/components/SectionDiv";
 import BotComplement from "../../src/components/BotComplement";
 import BotInitialInfo from "../../src/components/BotInitialInfo";
-import BotInfo from "../../src/components/BotInfo";
+import BotInfo from "../../src/components/BotInfo/BotInfo";
 import BotDataDiv from "../../src/components/BotDataDiv";
 import BotData from "../../src/components/BotData";
 import AccountData from "../../src/components/AccountData";
 import StyledButton from "../../src/components/StyledButton";
 import RegionData from "../../src/components/RegionData";
 import NumbersData from "../../src/components/NumbersData";
-import DataInfo from "../../src/components/DataInfo";
+import DataInfo from "../../src/components/DataInfo/DataInfo";
 
 const Title = styled.h1`
   text-align: center;

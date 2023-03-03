@@ -9,7 +9,7 @@ import BotListImage from '../src/components/BotListImage';
 import BotName from '../src/components/BotName';
 import FavoriteButton from '../src/components/FavoriteButton';
 import FavoriteListButton from '../src/components/FavoriteListButton';
-import Header from '../src/components/Header';
+import Header from '../src/components/Header/Header';
 import HrDiv from '../src/components/HrDiv';
 import MainDiv from '../src/components/MainDiv';
 import RouterImage from '../src/components/RouterImage';

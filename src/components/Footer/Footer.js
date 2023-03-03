@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
     render() {
         return (
             <FooterDiv>
-                <P>©2019, BLiP Todos os direitos reservados | <b>Termos de Uso</b></P>
+                <P>©2019, BLiP Todos os direitos reservados | Termos de Uso</P>
             </FooterDiv>
         );
     }
