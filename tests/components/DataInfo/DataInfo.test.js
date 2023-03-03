@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom'
-import DataInfo from './DataInfo';
+import DataInfo from '../../../src/components/DataInfo';
 
 describe('DataInfo Component', () => {
     it('should render component', () => {

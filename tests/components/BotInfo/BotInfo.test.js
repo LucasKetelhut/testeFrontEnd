@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom'
-import BotInfo from './BotInfo';
+import BotInfo from '../../../src/components/BotInfo';
 
 describe('BotInfo Component', () => {
     it('should render component', () => {

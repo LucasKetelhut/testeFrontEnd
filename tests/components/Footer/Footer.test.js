@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom'
-import Footer from './Footer';
+import Footer from '../../../src/components/Footer';
 
 describe('Footer Component', () => {
     it('should render component', () => {
