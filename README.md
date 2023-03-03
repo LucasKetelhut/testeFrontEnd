@@ -56,6 +56,7 @@ $ npm run dev
 ✔️ Na pasta "src" encontra-se a conexão com a api. <br>
 ✔️ Na pasta "src/components" encontram-se os compentes utilizados na aplicação. <br>
 ✔️ Na pasta "public/images" encontram-se as imagens utilizadas na aplicação. <br>
+✔️ Na pasta "tests" encontram-se os testes da aplicação. <br>
 
 ---
 
